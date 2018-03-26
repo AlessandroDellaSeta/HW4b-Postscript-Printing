@@ -33,6 +33,23 @@ public:
             <<"closepath fill\n";
         file<<endl;
     }
+    
+     void drawTriangle(int x1, int y1, int x2, int y2, int x3, int y3){
+        file <<x1<<' '<< y1<<" moveto\n"<<x2<<' '<< y2<<" lineto\n"
+             <<x3<<' '<< y3<<" lineto\n"<<"closepath stroke\n";
+        file<< endl;
+    }
+
+    void fillTriangle(int x1, int y1, int x2, int y2, int x3, int y3){
+        file <<x1<<' '<< y1<<" moveto\n"<<x2<<' '<< y2<<" lineto\n"
+             <<x3<<' '<< y3<<" lineto\n"<<"closepath fill\n";
+        file<< endl;
+    }
+
+    void drawCircle(int x, int y, int r){
+        file << x << ' ' << y << ' '<< r <<" 0 360 arc stroke\n";
+        file<< endl;
+    }
 
 
 int main() {
