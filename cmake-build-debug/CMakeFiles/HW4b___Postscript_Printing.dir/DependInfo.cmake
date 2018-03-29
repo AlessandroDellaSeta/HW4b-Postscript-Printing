@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Alessandro/CLionProjects/HW4b - Postscript Printing/main.cpp" "C:/Users/Alessandro/CLionProjects/HW4b - Postscript Printing/cmake-build-debug/CMakeFiles/HW4b___Postscript_Printing.dir/main.cpp.obj"
+  "C:/Users/Alessandro/CLionProjects/HW4b-Postscript-Printing/main.cpp" "C:/Users/Alessandro/CLionProjects/HW4b-Postscript-Printing/cmake-build-debug/CMakeFiles/HW4b___Postscript_Printing.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
