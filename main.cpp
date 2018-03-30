@@ -65,7 +65,7 @@ public:
              << " show" << '\n';
     }
 
-    void  grid(double x0, double x1, int m, double y0, double y1, int n) {
+    void  grid(int x0, int x1, int m, int y0, int y1, int n) {
         file << "0.1 setlinewidth\n";
         setColor(0,0,0);
         int x = x0, dx = (x1-x0)/(m-1);
