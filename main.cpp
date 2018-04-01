@@ -1,3 +1,6 @@
+/*author: Alessandro Della Seta, Shangxing Jiang        Date: March 30, 2018
+Postscript 
+*/
 #include <iostream>
 #include <fstream>
 using namespace std;
